@@ -1,0 +1,21 @@
+.edu{
+    
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px;
+/* background-color: #f6efef; */
+background-color: #171C22;
+/* box-shadow:  5px 5px 10px #ffffff,
+             -5px -5px 10px #ffffff; */
+
+}
+.duration{
+    margin-left: 20px;
+    /* background-color: #54BAB9; */
+    background-color: #02BC95;
+    color: #f8f5f5;
+    padding: 5px;
+    border-radius: 11%;
+}

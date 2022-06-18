@@ -1,0 +1,28 @@
+.bodynav{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    /* background-color: #E9DAC1; */
+    background-color:  #171C22;
+    
+    /* box-shadow:  5px 5px 7px #e2d0b1,
+     0px 0px 0px #b49b7a;  */
+    
+}
+.resume {
+    text-align: center;
+    /* color: #FC4F4F; */
+    color: #02BC95;
+
+}
+.bodynav h5 {
+    
+    /* color: #54BAB9; */
+    color: #ffffff;
+    font-weight:bold;
+    
+}

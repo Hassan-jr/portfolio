@@ -1,0 +1,13 @@
+.work{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 20px;
+
+/* background-color: #f6efef; */
+background-color: #171C22;
+/* box-shadow:  5px 5px 10px #ffffff,
+             -5px -5px 10px #ffffff; */
+
+}

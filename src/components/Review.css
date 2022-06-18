@@ -1,0 +1,13 @@
+.container-review{
+    /* background-color: #f6efef; */
+   
+    margin-top: 20px;
+    padding: 10px;
+  
+
+}
+
+.review h2 {
+    text-align: center;
+    font-size: 25px;
+}

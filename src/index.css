@@ -1,0 +1,17 @@
+body {
+    /* background-color: #F7ECDE; */
+    background-color: #1F282F;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  color: #fffdfd;
+    
+    
+}
+
+h2, h4, h5, h6 {
+    color: #02BC95;
+}
+h3,h1 {
+    color: #02BC95;
+}

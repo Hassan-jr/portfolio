@@ -1,0 +1,7 @@
+.socials a{
+  margin: 20px;
+  color: #ffffff;
+}
+ a:hover{
+  color: #02BC95;
+}
