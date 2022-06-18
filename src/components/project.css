@@ -69,9 +69,9 @@ background-color:  #02BC95;;
 
 @media only screen and (max-width: 600px){
     .projects{
-        width: 70vw;
-        margin-left: 10vw;
-        margin-right: 10vw;
+        width: 80vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
         padding: 10px;
         overflow: hidden;
 
