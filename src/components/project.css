@@ -75,7 +75,9 @@ background-color:  #02BC95;;
         padding: 10px;
         overflow: hidden;
 
-
+    }
+    .project_des{
+        margin-left: 20px;
     }
     
     .project_div{
