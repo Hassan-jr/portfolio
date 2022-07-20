@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-scroll';
 import './header.css'
 import Imagepro from '../img/about.png'
+import mypic from '../img/mypic.png'
 import Typical from "react-typical";
 // import Wave from "../img/wave.png"
 
@@ -38,7 +39,7 @@ function Header() {
        
       </div>
       <div className='headerimgparent'>
-      < img  className='headerimg' src={Imagepro} alt = 'profile' />
+      < img  className='headerimg' src={mypic} alt = 'profile' />
       </div>
      
     </div>
