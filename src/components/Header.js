@@ -19,6 +19,8 @@ function Header() {
          <Typical
           loop = {Infinity}
           steps = {[
+            "Blockchain Developer",
+            1000,
             "Cross Platform Developer",
             1000,
             "Full Stack Engineer",
