@@ -1,56 +1,35 @@
-import React from 'react'
-import "./project.css"
-import Image1 from "../img/amazon.png"
+import React from "react";
+import "./project.css";
 
+import Project from "./project";
+import Data from "./ProjectData";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 function Projects() {
-  
+
+  const settings = { 
+    dots: false,
+    
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows : true,
+    className: "slides"
+  };
+
   return (
-    <div  className='container'>
+    <div className="container">
       <h2>Recent Projects</h2>
-
-      <div  className = "projects">
-      <h3>1. Responsive Amazon-clone Website </h3>
-
-      <div className = "project_div">
-
-      {/* project img */}
-      <div  className="project_img_div">
-        <a href="http://amazonbyhassan.herokuapp.com/">
-         <img className="project_img" src={Image1} alt="amazon project"/>
-         </a>
-      </div>
-
-              {/* project des */}
-        <div  className="project_des">
-                {/* fronend */}
-              <h5>Frontend</h5>
-              <ul>
-                <li>React js</li>
-                <li>Redux</li>
-              </ul>
-              {/* backend */}
-              <h5>Backend</h5>
-              <ul>
-                <li>Node js</li>
-                <li>Express js</li>
-                <li>Mongo DB</li>
-              </ul>
-              {/* hosting */}
-              <h5>Hosting</h5>
-              <ul>
-                <li>Frontend - Heroku </li>
-                <li>Backend  - Heroku</li>
-              </ul>
-              <h5>Project Link</h5>
-               <ul>
-                <li><a href="http://amazonbyhassan.herokuapp.com/">http://amazonbyhassan.herokuapp.com</a></li>
-               </ul>
-        </div>
-      </div>
-      </div>
+      <  Slider {...settings} >
+      {Data.map((item, index) => <Project key={index} {...item} />)}
+      </Slider>
+      
     </div>
-  )
+  );
 }
 
 export default Projects;
