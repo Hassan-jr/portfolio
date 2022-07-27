@@ -1,5 +1,6 @@
 .header{
-    /* background-color:#E9DAC1; */
+   background-image: linear-gradient(to left, #02bc95, #00958f, #006e7a, #1a4958, #1f282f); 
+  /* background-image: linear-gradient(to bottom, #387a6b, #2d6053, #22473d, #173028, #0a1a15); */
     /* color: #54BAB9; */
     display: flex;
     align-content: center;
@@ -7,7 +8,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
     
 }
  .header h3 {
@@ -18,7 +20,14 @@
 .changingtext{
   font-family: 'Redressed', cursive;
 }
+.headerimgparent{
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
 
+}
 .headerimg {
  
   width: 300px;
