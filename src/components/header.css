@@ -1,7 +1,8 @@
 .header{
-   background-image: linear-gradient(to left, #02bc95, #00958f, #006e7a, #1a4958, #1f282f); 
-  /* background-image: linear-gradient(to bottom, #387a6b, #2d6053, #22473d, #173028, #0a1a15); */
-    /* color: #54BAB9; */
+   /* background-image: linear-gradient(to left, #02bc95, #00958f, #006e7a, #1a4958, #1f282f);  */
+  
+   background: rgb(18,16,66);
+   background: linear-gradient(90deg, rgba(18,16,66,1) 0%, rgba(26,20,52,1) 0%, rgba(12,61,79,1) 48%, rgba(12,61,79,1) 48%, rgba(29,44,67,1) 59%, rgba(50,23,53,1) 100%, rgba(52,21,52,1) 100%, rgba(65,8,43,0.7679446778711485) 100%, rgba(92,11,61,1) 100%, rgba(127,88,112,1) 100%, rgba(131,97,118,1) 100%, rgba(96,20,67,1) 100%, rgba(54,19,51,1) 100%, rgba(135,106,124,1) 100%, rgba(89,26,65,0.5382528011204482) 100%, rgba(80,26,58,1) 100%, rgba(89,8,55,1) 100%);
     display: flex;
     align-content: center;
     line-height: 40px;
@@ -26,7 +27,8 @@ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 20px );
 -webkit-backdrop-filter: blur( 20px );
 border-radius: 10px;
-
+padding: 10px;
+margin-left: 10px;
 }
 .headerimg {
  
