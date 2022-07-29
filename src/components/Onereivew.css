@@ -1,15 +1,16 @@
 .container2{
     margin: 20px;
     padding: 10px;
- 
+  
    max-width: 300px;
    margin-left: auto;
    margin-right: auto;
    border-radius: 10%;
-    /* background-color: #e2d0b1; */
-    background-color: #171C22;
-    /* box-shadow:  5px 5px 10px #dac1c1,
-                 -5px -5px 10px #ffffff; */
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+   
 }
 .container-text{
     
