@@ -9,6 +9,8 @@
     border-radius: 40px;
     margin-left: 10px;
     margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     /* background-color:  #171C22; */
     background: rgb(18,16,66);
    background: linear-gradient(90deg, rgba(18,16,66,1) 0%, rgba(26,20,52,1) 0%, rgba(12,61,79,1) 48%, rgba(12,61,79,1) 48%, rgba(29,44,67,1) 59%, rgba(50,23,53,1) 100%, rgba(52,21,52,1) 100%, rgba(65,8,43,0.7679446778711485) 100%, rgba(92,11,61,1) 100%, rgba(127,88,112,1) 100%, rgba(131,97,118,1) 100%, rgba(96,20,67,1) 100%, rgba(54,19,51,1) 100%, rgba(135,106,124,1) 100%, rgba(89,26,65,0.5382528011204482) 100%, rgba(80,26,58,1) 100%, rgba(89,8,55,1) 100%);
