@@ -23,7 +23,7 @@ import ReactGA from 'react-ga';
 
 function Wpp() {
 
-  ReactGA.initialize('G-ZKSEYCDMSR');
+  ReactGA.initialize('UA-198293761-2');
 
   useEffect(()=>{
    
