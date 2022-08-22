@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import Nav from "./components/nav";
 import './App.css'
 import Header from "./components/Header";
@@ -18,8 +19,18 @@ import Edu from "./components/Edu";
 import Projects from "./components/projects";
 import Review from "./components/Review";
 import Contact from "./components/Contact";
+import ReactGA from 'react-ga';
 
 function Wpp() {
+
+  ReactGA.initialize('G-ZKSEYCDMSR');
+
+  useEffect(()=>{
+   
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  },[])
+
+
   return (
     < Router>
     <div >
