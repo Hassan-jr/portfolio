@@ -27,10 +27,7 @@ function Myskills() {
               <strong>REACT NATIVE</strong>
             </p>
             <Line range="190" />
-            <p>
-              <strong> TAILWINDCSS</strong>
-            </p>
-            <Line range="180" />
+           
           </div>
           {/* the sencond skill */}
 
@@ -72,6 +69,26 @@ function Myskills() {
               <strong>HARDHAT</strong>
             </p>
             <Line range="185" />
+          </div>
+          {/* Forth  Line */}
+          <div>
+          <h2 className="skillHead">OTHERS</h2>
+          <p>
+              <strong> REDUX</strong>
+            </p>
+            <Line range="180" />
+            <p>
+              <strong> GIT & GITHUB</strong>
+            </p>
+            <Line range="180" />
+            <p>
+              <strong> TAILWINDCSS</strong>
+            </p>
+            <Line range="180" />
+            <p>
+              <strong> BOOTSRAB</strong>
+            </p>
+            <Line range="180" />
           </div>
         </div>
       </div>

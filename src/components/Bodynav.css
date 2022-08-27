@@ -15,7 +15,9 @@
     
 }
 .test3{
-    background-color: red;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #02BC95;
 }
 
 .resume {
