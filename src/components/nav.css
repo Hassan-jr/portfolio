@@ -22,10 +22,7 @@
     background-size: cover;
     
 }
-.right {
-     width: 100%; 
-     background-color: #02BC95; 
-}
+
 
 .left {
     flex: 70%;
@@ -84,5 +81,9 @@
         top: 0px;
         margin-bottom: -76px;
     }
+    .right {
+        width: 100%; 
+        background-color: #02BC95; 
+   }
     
     }
