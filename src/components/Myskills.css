@@ -20,6 +20,9 @@
               -5px -5px 10px #ffffff; */
  
 }
+.skillHead{
+    color: #ffffff;
+}
 .allskills{
     display: flex;
     flex-direction: row;
