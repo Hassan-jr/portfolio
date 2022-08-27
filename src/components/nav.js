@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import MenuIcon from '@mui/icons-material/Menu';
 import "./nav.css";
+import logo from '../img/logo.png';
 
 function Nav() {
        const [show, setshow] = useState(false)
@@ -12,7 +13,8 @@ function Nav() {
     <div className='nav'> 
     
     <div className='right'>
-      <h1 className='logo'>Hassan-jr</h1>
+      {/* <h1 className='logo'>Hassan-jr</h1> */}
+      <img className='logo' src={logo} alt='logo'/>
     </div>
     
         <ul className='left' >

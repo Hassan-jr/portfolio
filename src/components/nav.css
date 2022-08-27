@@ -14,20 +14,17 @@
    
 }
 .logo{
-    padding-bottom: 8px;
-    /* background-color: #54BAB9; */
-    background: #0F0FBF;
-    background: radial-gradient(ellipse farthest-corner at center center, #0F0FBF 0%, #D4375C 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
+    margin-top: 4px;
+    height: 45px; 
+    object-fit: contain; 
+    background-color: #02BC95; 
+    z-index: 1;
+    background-size: cover;
     
 }
 .right {
-    flex: 30%;
-    background-color: #02BC95;
-    
+     width: 100%; 
+     background-color: #02BC95; 
 }
 
 .left {
