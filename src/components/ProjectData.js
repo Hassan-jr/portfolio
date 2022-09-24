@@ -5,7 +5,7 @@ import Image4 from "../img/blog.png";
 const Data = [
   {
     title: "1. Blog Website",
-    link: "https://hassanjrblog.herokuapp.com/",
+    link: "https://blog.hassanjr.com/",
     image: Image4,
     hosting: "Heroku",
   },
